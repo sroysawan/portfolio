@@ -5,8 +5,8 @@
 @layer base {
     body {
         margin: 0;
-        @apply bg-primaryBg;
-        @apply text-primaryContent;
+        @apply bg-base-100;
+        @apply text-base-content;
     }
 }
 
