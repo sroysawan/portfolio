@@ -17,16 +17,23 @@ const ContentContainer = ({
     onInitial,
     title: sectionTitle = "",
     data = [],
+    currentSection ,
 }) => {
     const [isMouseEnter , setIsMouseEnter] = useState({});
     const SECTION_ID = `${sectionTitle}-section`;
 
     useEffect(() => {
         onInitial(SECTION_ID)
+        console.log(sectionTitle);
     },[])
+
+    // เช็คว่า currentSection ตรงกับ sectionTitle ของคอนเทนต์นี้ไหม
+    const isCurrentSection = currentSection === SECTION_ID;
     return (
             <div id={SECTION_ID} className="scroll-m-14">
-                <div className="text-primaryAccent font-medium px-2">{sectionTitle}</div>
+                <div className={`text-accent font-medium px-2 ${isCurrentSection ? 'border-l-4 border-primary pl-2' : ''}`}>
+                {sectionTitle}
+            </div>
                 {
                     data.map(({
                         date ="",
@@ -39,16 +46,16 @@ const ContentContainer = ({
                     }, index) =>(
                     <div 
                         key={`section-id-${index}`}
-                        className={`grid grid-cols-[25%_75%] rounded-md px-2 py-6 transition-all ${isMouseEnter[`section-id-${index}`] ? "bg-primaryBase" : ""}`}
+                        className={`grid grid-cols-[25%_75%] rounded-md px-2 py-6 transition-all ${isMouseEnter[`section-id-${index}`] ? "bg-secondary" : ""}`}
                         onMouseEnter={() => setIsMouseEnter({[`section-id-${index}`]: true})}  
                         onMouseLeave={() => setIsMouseEnter({[`section-id-${index}`]: false})}  
                     >
-                        <div>
+                        <div className="space-y-2">
                             <FormatDate isHighlight={isMouseEnter[`section-id-${index}`]}>{date}</FormatDate>
                             <Picture picture={picture} title="Title"/>
                         </div>
                         <div className="grid gap-y-4">
-                            <TitileLink isHighlight={isMouseEnter[`section-id-${index}`]} title={title} link={link}/>
+                            <TitileLink isHighlight={isMouseEnter[`section-id-${index}`]} title={title} link={link} />
                             {
                                 materials.length > 0 ? 
                                 <div className="flex gap-4 text-xl items-center">

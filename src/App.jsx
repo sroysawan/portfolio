@@ -5,15 +5,24 @@ import RightSection from "./sections/RightSection"
 
 function App() {
   const [sectionIds , setSectionIds] = useState([]); //array เปล่า
-  const [navbarItems , setNavbarItems] = useState([]); //array เปล่า
-  const [currentSection , setCurrentSection] = useState(""); //array เปล่า
-  // สร้าง state สำหรับธีม เริ่มต้นที่ "light"
+  const [navbarItems , setNavbarItems] = useState([]); 
+  const [currentSection , setCurrentSection] = useState(""); 
   const [theme, setTheme] = useState("lighttheme");
-  // ฟังก์ชันสำหรับสลับธีม
+
+  useEffect(() => {
+    // ดึงค่าธีมจาก Local Storage ถ้ามีเก็บไว้
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme); // ตั้งค่าธีมเริ่มต้นจาก Local Storage
+    }
+  }, []);
+  
   const toggleTheme = () => {
-    setTheme(theme === "lighttheme" ? "darktheme" : "lighttheme");
-    // setTheme(theme === "mytheme" ? "darktheme" : "mytheme");
+    const newTheme = theme === "lighttheme" ? "darktheme" : "lighttheme";
+    setTheme(newTheme); // เปลี่ยนค่าธีมใน state
+    localStorage.setItem("theme", newTheme); // เก็บค่าธีมใหม่ลง Local Storage
   };
+  
 
    // ตั้งค่า data-theme ให้กับ div#root
    useEffect(() => {
@@ -74,7 +83,7 @@ useEffect(()=> {
   return (
     <div data-theme={theme} className="pt-14 mx-auto max-w-6xl grid gap-y-5 lg:grid-cols-[40%_60%]">     
       <LeftSection navbarItems={navbarItems} currentSection={currentSection} toggleTheme={toggleTheme} theme={theme}/>
-      <RightSection onInitial={addSectionsIds}/>
+      <RightSection onInitial={addSectionsIds} currentSection={currentSection}/>
     </div>
   )
 }
