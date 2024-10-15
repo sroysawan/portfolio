@@ -100,7 +100,7 @@ function App() {
       {showScrollTop && (
         <button
         onClick={scrollToTop}
-        className={`fixed bottom-5 right-5 p-3 rounded-full shadow-md hover:opacity-90 lg:hidden ${
+        className={`fixed bottom-5 right-5 p-1 rounded-full shadow-md hover:opacity-90 lg:hidden ${
           theme === "lighttheme"
             ? "bg-primary text-white"
             : "bg-primary text-black"
