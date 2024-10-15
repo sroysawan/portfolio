@@ -1,5 +1,4 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import pixExp from '.././assets/toy.png';
 import picmjr from '../assets/project-mjr.png'
 export const data = [
     {
@@ -14,8 +13,26 @@ export const data = [
             ["React" , "Tailwaind CSS"],
             ["NodeJS" , "Express"],
         ],
-        // picture: pixExp,
     },
+    // {
+    //     date:"Oct 2024",
+    //     title:"Portfolio",
+    //     link:"https://sroysawan.netlify.app/",
+    //     materials:[
+    //         {
+    //           type:faGithub,
+    //           link: "https://github.com/sroysawan/portfolio"
+    //         },
+    //     ],
+    //     descriptions:[    
+    //             "• A simple and minimalist portfolio for developers built with React and TailwindCSS, designed to be clean and fast.",
+
+    //     ],
+    //     skills:[
+    //         ["React","Tailwind CSS"],
+    //     ],
+    //     picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/disney-clone.gif",
+    // },
     {
         date:"Sep 2024",
         title:"Disney Plus Clone",

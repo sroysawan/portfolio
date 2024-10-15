@@ -1,4 +1,4 @@
-import pixExp from '.././assets/toy.png';
+
 import filecert from '../assets/Certificate of Internship.pdf'
 import certpic from '../assets/Certificate-of-Internship-img.webp'
 import iccert from '../assets/1375IC31375-650113-สร้อยสวรรค์-กลัดเฉยดี.pdf'

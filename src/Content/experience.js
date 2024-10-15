@@ -1,5 +1,4 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import pixExp from '.././assets/toy.png';
 export const data = [
     {
         date:"Apr 2022 - Jun 2022",
