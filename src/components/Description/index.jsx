@@ -1,6 +1,6 @@
 const Description = ({description}) => {
     return (
-        <div className="text-sm">{description}</div>
+        <div className="text-xs">{description}</div>
     )
 }
 

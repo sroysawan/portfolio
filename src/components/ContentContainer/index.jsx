@@ -31,7 +31,7 @@ const ContentContainer = ({
     const isCurrentSection = currentSection === SECTION_ID;
     return (
             <div id={SECTION_ID} className="scroll-m-14">
-                <div className={`text-accent font-medium px-2 ${isCurrentSection ? 'border-l-4 border-primary pl-2' : ''}`}>
+                <div className={`text-primary font-medium px-2 ${isCurrentSection ? 'border-l-4 border-primary pl-2' : ''}`}>
                 {sectionTitle}
             </div>
                 {

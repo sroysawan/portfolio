@@ -6,7 +6,6 @@ const navs = [
   { title : "About", sectionId: "About-section" },
   { title : "Experience", sectionId: "Experience-section"},
   { title : "Project", sectionId: "Project-section"},
-  { title : "Article", sectionId: "Article-section"},
   { title : "Certificate", sectionId: "Certificate-section"},
 ]
 
@@ -31,10 +30,13 @@ const Navbar = ({navbarItems,currentSection}) => {
               >
                 <div>
                   <FontAwesomeIcon 
-                    className={`new-arrow ${currentSection === e.sectionId ? "text-primaryTitle" : isMouseEnter[e.title] ? "" : "hidden"}`} 
+                    className={`new-arrow ${currentSection === e.sectionId ? "text-primary" : isMouseEnter[e.title] ? "" : "hidden"}`} 
                     icon={faArrowRight} />    
                 </div>
-                <div className={`${currentSection === e.sectionId || isMouseEnter[e.title] ? "translate-x-3" : ""} duration-500 ease-out`}>{e.title}</div>
+                {/* <div className={`${currentSection === e.sectionId || isMouseEnter[e.title] ? "translate-x-3" : ""} duration-500 ease-out`}>{e.title}</div> */}
+                <div className={`${currentSection === e.sectionId ? "text-primary" : ""} ${ isMouseEnter[e.title] ? "translate-x-3" : ""} duration-500 ease-out`}>
+                  {e.title}
+                </div>
               </div>
               ))
             }
