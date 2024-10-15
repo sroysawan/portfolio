@@ -1,67 +1,93 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import pixExp from '.././assets/toy.png';
-
+import picmjr from '../assets/project-mjr.png'
 export const data = [
     {
-        date:"2022-2023",
-        title:"Frontend Developer",
-        link:"https://github.com/sroysawan",
+        date:"2024",
+        title:"(Renew) Padding Process Tracking and Task Arrangement Dashboard Project",
+        descriptions:[    
+                "• Retrieve data from the database and display it on the dashboard",
+                "• create , read , update and delete tasks on the dashboard",
+                "• create , read , update and delete employee information",
+        ],
+        skills:[
+            ["React" , "Tailwaind CSS"],
+            ["NodeJS" , "Express"],
+        ],
+        // picture: pixExp,
+    },
+    {
+        date:"Sep 2024",
+        title:"Disney Plus Clone",
+        link:"https://sroysawan-disney-clone.netlify.app/",
         materials:[
             {
               type:faGithub,
-              link: "https://github.com/sroysawan"
+              link: "https://github.com/sroysawan/disney-clone"
             },
-            {
-              type:faGithub,
-              link: "https://github.com/sroysawan"
-            }
         ],
         descriptions:[    
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos repellendus perspiciatis reiciendis et delectus quo",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos "
+                "• Responsive",
+                "• Api Call By TMDB",
+
         ],
         skills:[
-            ["React" , "TailwindCss"],
-            ["NodeJs" , "Express"],
+            ["React","Tailwind CSS"],
         ],
-        picture: pixExp,
+        picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/disney-clone.gif",
     },
     {
-        date:"2023-Now",
-        title:"IT Support",
-        link:"https://github.com/sroysawan",
+        date:"Aug 2023",
+        title:"Task Management",
+        link:"https://sroysawan-react-task.netlify.app/",
         materials:[
             {
               type:faGithub,
-              link: "https://github.com/sroysawan"
+              link: "https://github.com/sroysawan/react-task"
             },
-            {
-              type:faGithub,
-              link: "https://github.com/sroysawan"
-            }
         ],
         descriptions:[    
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos repellendus perspiciatis reiciendis et delectus quo",
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos "
+                "• Create , Read , Update and Delete Task Management",
+                "• Theme Toggles",
+
         ],
         skills:[
-            ["React" , "TailwindCss"],
-            ["NodeJs" , "Express"],
+            ["React"],
         ],
-        picture: pixExp,
+        picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/taskmanagement.gif",
     },
     {
-      date:"2023-Now",
-      title:"IT Support",
-      link:"",
+        date:"Aug 2023",
+        title:"Search Image API",
+        link:"https://sroysawan-search-img-api.netlify.app/",
+        materials:[
+            {
+              type:faGithub,
+              link: "https://github.com/sroysawan/search-img-app"
+            },
+        ],
+        descriptions:[    
+                "• Search Image with API Unsplash ",
+
+        ],
+        skills:[
+            ["React", "API"],
+        ],
+        picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/search-img-with-api.gif",
+    },
+    {
+      date:"2022-2023",
+      title:"Padding Process Tracking and Task Arrangement Dashboard Project",
       descriptions:[    
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos repellendus perspiciatis reiciendis et delectus quo",
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit commodi dolorem distinctio obcaecati quos "
+              "• Retrieve data from the database and display it on the dashboard",
+              "• Create , Read , Update and Delete tasks on the dashboard",
+              "• Create , Read , Update and Delete employee information",
+              "• for internal project"
       ],
       skills:[
-          ["React" , "TailwindCss"],
-          ["NodeJs" , "Express"],
+          ["React" , "Bootstrap"],
+          ["Laravel" , "MySQL"],
       ],
-      picture: pixExp,
+    //   picture: picmjr,
   },
 ]
