@@ -1,10 +1,10 @@
 import pixExp from '.././assets/toy.png';
 import filecert from '../assets/Certificate of Internship.pdf'
-import certpic from '../assets/Certificate-of- Internship-img.jpg'
+import certpic from '../assets/Certificate-of-Internship-img.webp'
 import iccert from '../assets/1375IC31375-650113-สร้อยสวรรค์-กลัดเฉยดี.pdf'
-import icpic from '../assets/1375IC31375-650113-สร้อยสวรรค์-กลัดเฉยดี-img.jpg'
+import icpic from '../assets/1375IC31375-650113-สร้อยสวรรค์-กลัดเฉยดี-img.webp'
 import reactcert from '../assets/Certificate-udemy-พัฒนาเว็บแอพพลิเคชั่นด้วย React (Real-World Projects).pdf'
-import reactpic from '../assets/Certificate-udemy-พัฒนาเว็บแอพพลิเคชั่นด้วย React (Real-World Projects)-img.jpg'
+import reactpic from '../assets/Certificate-udemy-พัฒนาเว็บแอพพลิเคชั่นด้วย-React-_Real-World-Projects_-img.webp'
 export const data = [
     {
         date:"Aug 2023",
