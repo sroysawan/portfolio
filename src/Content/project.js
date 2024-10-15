@@ -1,19 +1,19 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import picmjr from '../assets/project-mjr.png'
 export const data = [
-    {
-        date:"2024",
-        title:"(Renew) Padding Process Tracking and Task Arrangement Dashboard Project",
-        descriptions:[    
-                "• Retrieve data from the database and display it on the dashboard",
-                "• create , read , update and delete tasks on the dashboard",
-                "• create , read , update and delete employee information",
-        ],
-        skills:[
-            ["React" , "Tailwaind CSS"],
-            ["NodeJS" , "Express"],
-        ],
-    },
+    // {
+    //     date:"2024",
+    //     title:"(Renew) Padding Process Tracking and Task Arrangement Dashboard Project",
+    //     descriptions:[    
+    //             "• Retrieve data from the database and display it on the dashboard",
+    //             "• create , read , update and delete tasks on the dashboard",
+    //             "• create , read , update and delete employee information",
+    //     ],
+    //     skills:[
+    //         ["React" , "Tailwaind CSS"],
+    //         ["NodeJS" , "Express"],
+    //     ],
+    // },
     {
         date:"Oct 2024",
         title:"Portfolio",
