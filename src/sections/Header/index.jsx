@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { data } from '../../Content/header'
 const Header = ({toggleTheme,theme}) => {
     return (
@@ -9,7 +9,6 @@ const Header = ({toggleTheme,theme}) => {
               <label className="swap swap-rotate">
                 {/* this hidden checkbox controls the state */}
                 <input type="checkbox" className="theme-controller" onClick={toggleTheme}/>
-
                 {/* sun icon */}
                 <svg
                   className="swap-off h-7 w-7 fill-current"
@@ -30,9 +29,19 @@ const Header = ({toggleTheme,theme}) => {
               </label>
             </div>
             <div className="text-accent font-semibold">{data.title}</div>
-            {/* <div className="text-sm w-4/6">{data.caption}</div> */}
             <div className='text-sm w-4/6'>
                 <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,vite,nodejs,express,mysql,postman" />
+            </div>
+            <div className="text-sm w-4/6">
+              <a href={`https://mail.google.com/mail/?view=cm&to=${data.caption}`} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className='flex items-center gap-x-1 hover:text-accent'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                <span>{data.caption}</span>
+              </a>
             </div>
             <div className="mt-4">
               <a href={data.link} target="_blank" rel="noopener noreferrer">
