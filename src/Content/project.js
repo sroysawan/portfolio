@@ -17,7 +17,7 @@ export const data = [
         ],
         skills:[
             ["React" , "Tailwaind CSS"],
-            ["NodeJS" , "Express" , "Prisma"],
+            ["NodeJS" , "Express" , "Prisma" , "Cloudinary"],
         ],
     },
     {
