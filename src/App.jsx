@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import LeftSection from "./sections/LeftSection"
 import RightSection from "./sections/RightSection"
 
+const themeKey  = "port_show"; 
 
 function App() {
   const [sectionIds , setSectionIds] = useState([]); //array เปล่า
@@ -12,7 +13,7 @@ function App() {
 
   useEffect(() => {
     // ดึงค่าธีมจาก Local Storage ถ้ามีเก็บไว้
-    const savedTheme = localStorage.getItem("theme");
+    const savedTheme = localStorage.getItem(themeKey);
     if (savedTheme) {
       setTheme(savedTheme); // ตั้งค่าธีมเริ่มต้นจาก Local Storage
     }
@@ -21,7 +22,7 @@ function App() {
   const toggleTheme = () => {
     const newTheme = theme === "lighttheme" ? "darktheme" : "lighttheme";
     setTheme(newTheme); // เปลี่ยนค่าธีมใน state
-    localStorage.setItem("theme", newTheme); // เก็บค่าธีมใหม่ลง Local Storage
+    localStorage.setItem(themeKey , newTheme); // เก็บค่าธีมใหม่ลง Local Storage
   };
   
 
