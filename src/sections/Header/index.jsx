@@ -30,7 +30,7 @@ const Header = ({toggleTheme,theme}) => {
             </div>
             <div className="text-accent font-semibold">{data.title}</div>
             <div className='text-sm w-4/6'>
-                <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,vite,nodejs,express,mysql,postman" />
+                <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,vite,nodejs,express,mysql,prisma,postman" />
             </div>
             <div className="text-sm w-4/6">
               <a href={`https://mail.google.com/mail/?view=cm&to=${data.caption}`} 
