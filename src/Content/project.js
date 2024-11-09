@@ -11,10 +11,10 @@ export const data = [
             },
         ],
         descriptions:[    
-            "Admin: Manages users, products, categories, and orders, including updating product information, creating/deleting categories, and changing order statuses",
-            "User: Adds products to a shopping cart, places orders, stores shipping addresses, and manages account settings. Users can also view their order history and manage the cart",
-            "Cloudinary: Used for storing product images securely, reducing the load on your server",
-            "Stripe: Payment gateway for handling transactions in Thai Baht, providing a seamless checkout experience",
+            "• Admin: Manages users, products, categories, and orders, including updating product information, creating/deleting categories, and changing order statuses",
+            "• User: Adds products to a shopping cart, places orders, stores shipping addresses, and manages account settings. Users can also view their order history and manage the cart",
+            "• Cloudinary: Used for storing product images securely, reducing the load on your server",
+            "• Stripe: Payment gateway for handling transactions in Thai Baht, providing a seamless checkout experience",
         ],
         skills:[
             ["React" , "Tailwaind CSS"],
