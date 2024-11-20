@@ -17,7 +17,7 @@ export const data = [
             "• Stripe: Payment gateway for handling transactions in Thai Baht, providing a seamless checkout experience",
         ],
         skills:[
-            ["React" , "Tailwaind CSS" , "Material-UI"],
+            ["React" , "Tailwaind CSS" , "Material-UI" , "Zustand" ],
             ["NodeJS" , "Express" , "Prisma" , "Cloudinary" , "Stripe"],
         ],
     },
