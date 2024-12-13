@@ -4,6 +4,7 @@ export const data = [
     {
         date:"2024",
         title:"E-commerce",
+        link:"https://e-com2024-web.vercel.app/",
         materials:[
             {
               type:faGithub,
