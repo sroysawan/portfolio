@@ -51,10 +51,10 @@ export const data = [
               link: "https://github.com/sroysawan/disney-clone"
             },
         ],
-        descriptions:[    
-                "• Responsive",
-                "• Api Call By TMDB",
-
+        descriptions: [    
+            "• Responsive: Fully optimized for all screen sizes, ensuring a seamless user experience across devices.",
+            "• API Integration: Fetches movie and TV show data dynamically using TMDB API.",
+            "• Frontend Design: Replicates Disney Plus UI using React and TailwindCSS.",
         ],
         skills:[
             ["React","Tailwind CSS"],
@@ -102,12 +102,18 @@ export const data = [
     },
     {
       date:"2022-2023",
-      title:"Padding Process Tracking and Task Arrangement Dashboard Project",
+      title:"Padding Process Tracking and Task Arrangement Dashboard Project (University Graduation Project)",
       descriptions:[    
-              "• Retrieve data from the database and display it on the dashboard",
-              "• Create , Read , Update and Delete tasks on the dashboard",
-              "• Create , Read , Update and Delete employee information",
-              "• for internal project"
+              "• Developed a production tracking system for factories to monitor progress and task arrangement.",
+              "• Features include adding, deleting, updating, and rearranging task queues to display real-time production status.",
+              "• Displays machine-specific tasks, completed quantities, and estimated completion time directly on the dashboard.",
+              "• Includes an employee management system for adding, editing, and deleting employee data.",
+              "• Integrated employee data with the dashboard using employee IDs or RFID to display personalized production details.",
+              "• Frontend developed entirely using ReactJS with responsive design for seamless usability.",
+            //   "• Retrieve data from the database and display it on the dashboard",
+            //   "• Create , Read , Update and Delete tasks on the dashboard",
+            //   "• Create , Read , Update and Delete employee information",
+            //   "• for internal project"
       ],
       skills:[
           ["React" , "Bootstrap"],
