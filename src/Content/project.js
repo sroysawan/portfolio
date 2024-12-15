@@ -72,9 +72,10 @@ export const data = [
             },
         ],
         descriptions:[    
-                "• Create , Read , Update and Delete Task Management",
-                "• Theme Toggles",
-
+                "• Create, Read, Update, Delete (CRUD): Users can add, edit, and delete tasks efficiently.",
+                "• Theme Toggle: Allows switching between light and dark themes with persistent theme state.",
+                "• Local Storage Integration: Tasks are stored locally, ensuring data persistence across sessions.",
+                "• User-friendly Interface: Simple and clean UI with responsive design for better user experience.",
         ],
         skills:[
             ["React"],
@@ -92,7 +93,10 @@ export const data = [
             },
         ],
         descriptions:[    
-                "• Search Image with API Unsplash ",
+                "• Search for high-quality images using the Unsplash API.",
+                "• Implemented dynamic search functionality with real-time API calls to fetch image results based on user input.",
+                "• Features responsive design for optimal usability on various screen sizes.",
+                "• Includes smooth loading animations and error handling for a better user experience.",
 
         ],
         skills:[
