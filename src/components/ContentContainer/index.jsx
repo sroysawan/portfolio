@@ -24,7 +24,7 @@ const ContentContainer = ({
 
     useEffect(() => {
         onInitial(SECTION_ID)
-        console.log(sectionTitle);
+        // console.log(sectionTitle);
     },[])
 
     // เช็คว่า currentSection ตรงกับ sectionTitle ของคอนเทนต์นี้ไหม
