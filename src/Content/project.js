@@ -21,6 +21,7 @@ export const data = [
             ["React" , "Tailwaind CSS" , "Material-UI" , "Zustand" ],
             ["NodeJS" , "Express" , "Prisma" , "Cloudinary" , "Stripe"],
         ],
+        picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/ecom.gif",
     },
     {
         date:"Oct 2024",
