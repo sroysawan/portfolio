@@ -3,6 +3,27 @@ import picmjr from '../assets/project-mjr.png'
 export const data = [
     {
         date:"2024",
+        title:"Camping",
+        link:"",
+        materials:[
+            {
+              type:faGithub,
+              link: "https://github.com/sroysawan/Camping"
+            },
+        ],
+        descriptions:[    
+            "• User Registration & Authentication: Powered by Clerk, users can register, log in, and manage their profiles, including updating their names, profile pictures, and other personal details",
+            "• Landmark Creation: Users can create camping landmarks by providing detailed information, uploading images, and pinning the exact location on an interactive map powered by React Leaflet",
+            "• Landmark Favorites: Users can mark their favorite landmarks, allowing them to curate a personalized list of preferred camping spots",
+        ],
+        skills:[
+            ["NextJS" , "TypeScript", "Tailwaind CSS" , "shadcn/ui" , "React Leaflet"],
+            ["NodeJS" , "Prisma" , "Supabase" , "Clerk"],
+        ],
+        picture: "",
+    },
+    {
+        date:"2024",
         title:"E-commerce",
         link:"https://e-com2024-web.vercel.app/",
         materials:[
@@ -34,7 +55,7 @@ export const data = [
             },
         ],
         descriptions:[    
-                "• A simple and minimalist portfolio for developers built with React and TailwindCSS, designed to be clean and fast.",
+                "• A simple and minimalist portfolio for developers built with React and TailwindCSS, designed to be clean and fast",
 
         ],
         skills:[
@@ -53,9 +74,9 @@ export const data = [
             },
         ],
         descriptions: [    
-            "• Responsive: Fully optimized for all screen sizes, ensuring a seamless user experience across devices.",
-            "• API Integration: Fetches movie and TV show data dynamically using TMDB API.",
-            "• Frontend Design: Replicates Disney Plus UI using React and TailwindCSS.",
+            "• Responsive: Fully optimized for all screen sizes, ensuring a seamless user experience across devices",
+            "• API Integration: Fetches movie and TV show data dynamically using TMDB API",
+            "• Frontend Design: Replicates Disney Plus UI using React and TailwindCSS",
         ],
         skills:[
             ["React","Tailwind CSS"],
@@ -73,10 +94,10 @@ export const data = [
             },
         ],
         descriptions:[    
-                "• Create, Read, Update, Delete (CRUD): Users can add, edit, and delete tasks efficiently.",
-                "• Theme Toggle: Allows switching between light and dark themes with persistent theme state.",
-                "• Local Storage Integration: Tasks are stored locally, ensuring data persistence across sessions.",
-                "• User-friendly Interface: Simple and clean UI with responsive design for better user experience.",
+                "• Create, Read, Update, Delete (CRUD): Users can add, edit, and delete tasks efficiently",
+                "• Theme Toggle: Allows switching between light and dark themes with persistent theme state",
+                "• Local Storage Integration: Tasks are stored locally, ensuring data persistence across sessions",
+                "• User-friendly Interface: Simple and clean UI with responsive design for better user experience",
         ],
         skills:[
             ["React"],
@@ -95,9 +116,9 @@ export const data = [
         ],
         descriptions:[    
                 "• Search for high-quality images using the Unsplash API.",
-                "• Implemented dynamic search functionality with real-time API calls to fetch image results based on user input.",
-                "• Features responsive design for optimal usability on various screen sizes.",
-                "• Includes smooth loading animations and error handling for a better user experience.",
+                "• Implemented dynamic search functionality with real-time API calls to fetch image results based on user input",
+                "• Features responsive design for optimal usability on various screen sizes",
+                "• Includes smooth loading animations and error handling for a better user experience",
 
         ],
         skills:[
@@ -109,16 +130,12 @@ export const data = [
       date:"2022-2023",
       title:"Padding Process Tracking and Task Arrangement Dashboard Project (University Graduation Project)",
       descriptions:[    
-              "• Developed a production tracking system for factories to monitor progress and task arrangement.",
-              "• Features include adding, deleting, updating, and rearranging task queues to display real-time production status.",
-              "• Displays machine-specific tasks, completed quantities, and estimated completion time directly on the dashboard.",
-              "• Includes an employee management system for adding, editing, and deleting employee data.",
+              "• Developed a production tracking system for factories to monitor progress and task arrangement",
+              "• Features include adding, deleting, updating, and rearranging task queues to display real-time production status",
+              "• Displays machine-specific tasks, completed quantities, and estimated completion time directly on the dashboard",
+              "• Includes an employee management system for adding, editing, and deleting employee data",
               "• Integrated employee data with the dashboard using employee IDs or RFID to display personalized production details.",
-              "• Frontend developed entirely using ReactJS with responsive design for seamless usability.",
-            //   "• Retrieve data from the database and display it on the dashboard",
-            //   "• Create , Read , Update and Delete tasks on the dashboard",
-            //   "• Create , Read , Update and Delete employee information",
-            //   "• for internal project"
+              "• Frontend developed entirely using ReactJS with responsive design for seamless usability",
       ],
       skills:[
           ["React" , "Bootstrap"],
