@@ -5,7 +5,20 @@ import iccert from '../assets/1375IC31375-650113-สร้อยสวรรค�
 import icpic from '../assets/1375IC31375-650113-สร้อยสวรรค์-กลัดเฉยดี-img.webp'
 import reactcert from '../assets/Certificate-udemy-พัฒนาเว็บแอพพลิเคชั่นด้วย React (Real-World Projects).pdf'
 import reactpic from '../assets/Certificate-udemy-พัฒนาเว็บแอพพลิเคชั่นด้วย-React-_Real-World-Projects_-img.webp'
+import btdcert from '../assets/Verified-Certificate-of-Participation.webp'
 export const data = [
+    {
+        date:"Aug 2023",
+        title:"Verified Certificate of Participation",
+        link:reactcert,
+        descriptions:[    
+                "• the course DevLab 3 Open Access Program with rank",
+        ],
+        skills:[
+            ["Javascript" ,],
+        ],
+        picture: btdcert,
+    },
     {
         date:"Aug 2023",
         title:"พัฒนาเว็บแอพลิเคชั่นด้วย React (Real-World Projects)",
