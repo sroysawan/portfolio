@@ -57,7 +57,7 @@ const Picture = ({ picture, title }) => {
           <img
             src={picture}
             alt={title}
-            className="max-w-full max-h-full rounded-md"
+            className="max-w-full max-h-full rounded-md p-4"
           />
         </div>
       )}
