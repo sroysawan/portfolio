@@ -1,10 +1,10 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import picmjr from '../assets/project-mjr.png'
+
 export const data = [
     {
         date:"2024",
         title:"Camping",
-        link:"",
+        link:"https://camping-production.vercel.app",
         materials:[
             {
               type:faGithub,
@@ -12,15 +12,16 @@ export const data = [
             },
         ],
         descriptions:[    
-            "• User Registration & Authentication: Powered by Clerk, users can register, log in, and manage their profiles, including updating their names, profile pictures, and other personal details",
-            "• Landmark Creation: Users can create camping landmarks by providing detailed information, uploading images, and pinning the exact location on an interactive map powered by React Leaflet",
-            "• Landmark Favorites: Users can mark their favorite landmarks, allowing them to curate a personalized list of preferred camping spots",
+            "• User Registration and Profile Management: Powered by Clerk, users can sign up, log in, and update their profiles, including their names, profile pictures, and other personal details",
+            "• Create, Edit, and Delete Landmarks: Users can create landmarks for camping spots, add detailed descriptions, upload images, and pin exact locations on an interactive map powered by React Leaflet. They can also edit or delete landmarks they’ve created",
+            "• Favorite Landmarks: Users can save landmarks to their favorites, building a personalized list of preferred camping spots",
+            "• Search Functionality: The search system allows users to easily and quickly find landmarks using keywords.",
         ],
         skills:[
-            ["NextJS" , "TypeScript", "Tailwaind CSS" , "shadcn/ui" , "React Leaflet"],
+            ["NextJS" , "TypeScript", "Tailwind CSS" , "Shadcn/ui" , "React Leaflet"],
             ["NodeJS" , "Prisma" , "Supabase" , "Clerk"],
         ],
-        picture: "",
+        picture: "https://i.imgur.com/b1OaYxJ.gif",              
     },
     {
         date:"2024",
@@ -39,7 +40,7 @@ export const data = [
             "• Stripe: Payment gateway for handling transactions in Thai Baht, providing a seamless checkout experience",
         ],
         skills:[
-            ["React" , "Tailwaind CSS" , "Material-UI" , "Zustand" ],
+            ["React" , "Tailwind CSS" , "Material-UI" , "Zustand" ],
             ["NodeJS" , "Express" , "Prisma" , "Cloudinary" , "Stripe"],
         ],
         picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/ecom.gif",
@@ -141,6 +142,5 @@ export const data = [
           ["React" , "Bootstrap"],
           ["Laravel" , "MySQL"],
       ],
-    //   picture: picmjr,
   },
 ]
