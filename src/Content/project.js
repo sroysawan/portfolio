@@ -21,7 +21,7 @@ export const data = [
             ["NextJS" , "TypeScript", "Tailwind CSS" , "Shadcn/ui" , "React Leaflet"],
             ["NodeJS" , "Prisma" , "Supabase" , "Clerk"],
         ],
-        picture: "https://i.imgur.com/b1OaYxJ.gif",              
+        picture: "https://github.com/sroysawan/portfolio/raw/main/src/assets/camping_port.gif",              
     },
     {
         date:"2024",
