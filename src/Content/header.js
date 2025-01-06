@@ -1,4 +1,4 @@
-import fileName from '../assets/Resume-sroysawan.pdf'
+import fileName from '../assets/Resume_sroysawan.pdf'
 
 export const data = {
     name: "Sroysawan Kladcheydee",
