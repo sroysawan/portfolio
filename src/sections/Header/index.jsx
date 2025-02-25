@@ -86,7 +86,7 @@ const Header = ({ toggleTheme, theme }) => {
           <span>{data.caption}</span>
         </a>
       </div>
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <a href={data.link} target="_blank" rel="noopener noreferrer">
           <span className="bg-primary text-gray-200 px-3 py-2 rounded-md hover:bg-accent">
             {data.btnText}
@@ -95,7 +95,7 @@ const Header = ({ toggleTheme, theme }) => {
             </span>
           </span>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
