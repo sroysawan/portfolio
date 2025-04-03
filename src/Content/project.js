@@ -4,7 +4,7 @@ export const data = [
     {
         date:"2024",
         title:"Camping",
-        link:"https://camping-production.vercel.app",
+        // link:"https://camping-production.vercel.app",
         materials:[
             {
               type:faGithub,
